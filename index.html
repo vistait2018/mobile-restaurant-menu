@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Restaurant Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="container container-bg">
+                <h1>Jimmy's Dinner</h1>
+                <h2>The best burgers and pizzas in town.</h2>
+            </div>
+        </header>
+        <section id="content" class="content">
+
+
+        </section>
+        
+       
+        <div  class="your-order container">
+            
+        </div>
+
+         <section id="payment-card" class="card-details">
+
+            <form id="my-order-form" class="card">
+                 <div class="card-content">
+                <h1>Enter Card Details</h1>
+                <input required maxlength="5" minlength="5" name="name" type="text" placeholder="Enter your name" />
+                <input required maxlength="16" minlength="16" name="card-no" type="text" placeholder="Enter card Number" />
+                <input required maxlength="3" minlength="3" name="card-cvv" type="text" placeholder="Enter card cvv" />
+                <button type="submit" id="pay">Pay</button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <script src="/index.js" type="module"></script>
+</body>
+
+</html>
